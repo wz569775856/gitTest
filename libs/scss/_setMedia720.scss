@@ -1,0 +1,41 @@
+$rem-base: 24px;
+$mediaArray: "only screen and (max-width: 359px)",
+    "only screen and (min-width: 360px) and (max-width: 374px)",
+    "only screen and (min-width: 375px) and (max-width: 399px)",
+    "only screen and (min-width: 400px) and (max-width: 413px)",
+    "only screen and (min-width: 414px) and (max-width: 479px)",
+    "only screen and (min-width: 480px) and (max-width: 539px)",
+    "only screen and (min-width: 540px) and (max-width: 639px)",
+    "only screen and (min-width: 640px) and (max-width: 719px)",
+    "only screen and (min-width: 720px)";
+
+// set retina
+$mediaIarray: "",
+    "and (min-width: 360px) and (max-width: 374px)",
+    "and (min-width: 375px) and (max-width: 399px)",
+    "and (min-width: 400px) and (max-width: 413px)",
+    "and (min-width: 414px) and (max-width: 479px)",
+    "and (min-width: 480px) and (max-width: 539px)",
+    "and (min-width: 540px) and (max-width: 639px)",
+    "and (min-width: 640px) and (max-width: 719px)",
+    "and (min-width: 720px)";
+
+$ratioFor320: 720/320;
+$ratioFor360: 720/360;
+$ratioFor375: 720/375;
+$ratioFor400: 720/400;
+$ratioFor414: 720/414;
+$ratioFor480: 720/480;
+$ratioFor540: 720/540;
+$ratioFor640: 720/640;
+$ratioFor720: 720/720;
+$htmSizeArray: 
+                toFixed(($rem-base/$ratioFor320),2), 
+                toFixed(($rem-base/$ratioFor360),2), 
+                toFixed(($rem-base/$ratioFor375),2), 
+                toFixed(($rem-base/$ratioFor400),2), 
+                toFixed(($rem-base/$ratioFor414),2), 
+                toFixed(($rem-base/$ratioFor480),2),
+                toFixed(($rem-base/$ratioFor540),2), 
+                toFixed(($rem-base/$ratioFor640),2), 
+                toFixed(($rem-base/$ratioFor720),2);
